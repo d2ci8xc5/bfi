@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 34b6be665df7a5b8973b942ba1d57cf8ba1fe33b42a269362a9d4721ceefeff2
+-- hash: eaa7482c2f39c6e67a99fa84b384e6d30341342b122e314ba2ea31e5d0363262
 
 name:           bfi
 version:        0.1.0.0
@@ -21,7 +21,6 @@ source-repository head
 
 library
   exposed-modules:
-      Lib
       Main
   other-modules:
       Paths_bfi
@@ -34,7 +33,6 @@ library
 executable bfi-exe
   main-is: Main.hs
   other-modules:
-      Lib
       Paths_bfi
   hs-source-dirs:
       src
